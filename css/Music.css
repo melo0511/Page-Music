@@ -1,0 +1,165 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+body{  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+button{
+    width: 170px;
+    height: 50px;
+    background-color: #fd305c;
+    border-radius: 25px;
+    border: none;
+    color: white;
+}
+
+/*hoja1*/
+#sec1{
+    background-image: url(/imagenes/images/angel-jimenez.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#titulo-sec1{
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 150px;
+}
+
+/*hoja2*/
+
+#sec2{
+    width: 100%;
+    height: 800px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#div-padre2{
+    background-color: white;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+}
+
+#div-hijo2{
+width: 60%;
+height: 100%;
+background-color: transparent;
+display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#texto2{
+    width: 80%;
+    height: 80%;
+    background-color: transparent;    
+    flex-direction: column;
+}
+
+#button1{
+margin-top: 6rem;
+}
+
+#titulo1{
+    margin-top: 5rem;
+    background: -webkit-linear-gradient(#fa4a54,#da0170);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: tomato;  
+}
+
+.titulo{
+    font-size: 50px;
+    line-height: 60px;
+    font-family: 'Rubik', sans-serif;
+}
+
+#descripcion1{
+    margin-top: 1rem;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+#div-hijo2-1{
+width: 40%;
+height: 100%;
+background-image: url(/imagenes/images/matt-palmer.png);
+background-size: cover;
+}
+
+/*hoja3*/
+
+#sec3{
+    width: 100%;
+    height: 800px;
+    background-color: rgb(0, 42, 252);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#div-padre3{
+    background-color: white;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+}
+
+#div-hijo3{
+width: 35%;
+height: 100%;
+background-image: url(/imagenes/images/wesley-tingey.png);
+background-size: cover;
+}
+
+#div-hijo3-1{
+width: 65%;
+height: 100%;
+background-color: green;
+}
+
+/*hoja4*/
+
+#sec4{
+    background-image: url(/imagenes/images/john-raptis.png);
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#div-padre4{
+    width: 45%;
+    height: 80%;
+    background-color: blue;
+    justify-content: flex-end;
+    margin-right: 2rem;
+}
+
+/*FOOTER*/
+
+footer{
+    width: 100%;
+    height: 500px;
+    background-color: #fd305c;
+}
