@@ -47,18 +47,19 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 7rem;
 }
 
 #div-padre2{
     background-color: white;
-    width: 80%;
-    height: 80%;
+    width: 67%;
+    height: 100%;
     display: flex;
     flex-direction: row;
 }
 
 #div-hijo2{
-width: 55%;
+width: 60%;
 height: 100%;
 background-color: transparent;
 display: flex;
@@ -80,10 +81,9 @@ margin-top: 4.5rem;
 
 #titulo1{
     margin-top: 3rem;
-    background: -webkit-linear-gradient(#fa4a54,#da0170);
+    background: linear-gradient(to right,#ff4851,#a705d8);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  color: tomato;  
+  -webkit-text-fill-color: transparent; 
 }
 
 .titulo{
@@ -94,13 +94,14 @@ margin-top: 4.5rem;
 
 #descripcion1{
     margin-top: 1rem;
-    font-size: 18px;
+    font-size: 22px;
     line-height: 28px;
     font-family: 'Roboto', sans-serif;
+    line-height: 40px;
 }
 
 #div-hijo2-1{
-width: 45%;
+width: 50%;
 height: 100%;
 background-image: url(/imagenes/images/matt-palmer.png);
 background-size: cover;
@@ -121,12 +122,13 @@ background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 7rem;
 }
 
 #div-padre3{
     background-color: white;
-    width: 80%;
-    height: 80%;
+    width: 70%;
+    height: 100%;
     display: flex;
     flex-direction: row;
 }
@@ -156,35 +158,35 @@ margin-top: 3.8rem;
 }
 
 #titulo2{
-    margin-top: 5rem;
-    background: -webkit-linear-gradient(#fa4a54,#da0170);
+    margin-top: 8rem;
+    background: linear-gradient(to right,#ff4851,#a705d8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  color: tomato;  
+    
 }
 
 #descripcion2{
     margin-top: 1rem;
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 22px;
+    line-height: 40px;
     font-family: 'Roboto', sans-serif;
 }
 
 /*hoja4*/
 
 #sec4{
+    margin-top: 8rem;
     background-image: url(/imagenes/images/john-raptis.png);
     width: 100%;
-    height: 650px;
+    height: 80vh;
     background-size: cover;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
 #div-padre4{
     width: 45%;
-    height: 60%;
+    height: 55;
     background-color: transparent;
     justify-content: flex-end;
     margin-right: 2rem;
@@ -198,8 +200,8 @@ line-height:80px;
 
 #descripcion4{
     margin-top: 1rem;
-    font-size: 18px;
-    line-height: 32px;
+    font-size: 22px;
+    line-height: 35px;
     color: white;
     font-family: 'Roboto', sans-serif;
 }
@@ -213,14 +215,14 @@ line-height:80px;
 footer{
     width: 100%;
     height: 350px;
-    background-color: #fd305c;
+    background:linear-gradient(to right,#fd4c5c,#f81647);
 }
 
 nav{
-    margin-left: 6rem;
+    margin-left: 20rem;
     background-color: transparent;
     height: 78%;
-    width: 60%;
+    width: 50%;
 }
 
 nav ul {
@@ -237,6 +239,7 @@ nav ul li{
     color: white;
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
+    width: 25%;
 }
 
 #section-footer{
@@ -244,11 +247,29 @@ nav ul li{
     color: white;
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
-    margin-left: 6rem;
+    margin-left: 20rem;
     height: 22%;
-    width: 80%;
+    width: 60%;
     background-color: transparent;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+}
+
+
+#p-footer1{
+    display: flex;
+    justify-content: start;
+    margin-right: 33rem;
+}
+
+#p-footer2{
+    display: flex;
+    justify-content: end;
+    margin-left: 10.5rem;
+}
+
+.p{
+    width: 100%;
+    text-align: left;
 }
